@@ -1,0 +1,105 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/********************
+     HOME
+*********************/
+
+.home{
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    height: 100vh; 
+    position: relative;    
+}
+
+.home .header{
+    padding: 30px 0;
+
+}
+
+.home .header .nav{
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    background-color: white; 
+    width: 100vw;
+    
+}
+
+.home .header .nav ul li{
+    width: 150px;
+    margin: 30px;
+}
+
+.home .header .nav ul li a{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px;
+
+}
+
+.home .header .nav ul li a:hover{
+    color:#f3a14de0;
+    border-bottom: 1px solid #f3a14de0;
+    
+}
+
+
+
+/********************
+     HOME -BANNER
+*********************/
+
+.home .banner {
+    color:#e83a3adb;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 190px;
+    width: 690px;
+    margin-left: -345px;
+    margin-top: -95px;
+
+}
+
+.home .banner span{
+    display: block;
+}
+
+.home .banner  .slogan1{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: black;
+    
+}
+
+.home .banner  .slogan2{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+}
+
